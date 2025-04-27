@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.blog-container{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 90vw;
+    border-radius: 6px;
+    margin: 25px 4px;
+    padding: 2px 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+
+}
+.blog-container textarea{
+    height: 10vw;
+}
+.blog-head{
+    font-size: 32px;
+    margin: 1px 4px;
+}
+.blog-content{
+    font-size: 22px;
+    margin: 1px 4px;
+}
+.btn{
+    padding: 8px 9px;
+    margin: 4px 12px;
+  background: linear-gradient(135deg, #6C63FF, #42A5F5);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 82px;
+}
+.btn:hover {
+    background: linear-gradient(135deg, #42A5F5, #6C63FF);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
